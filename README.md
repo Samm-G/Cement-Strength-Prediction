@@ -107,6 +107,9 @@ git add .
 git commit -m "first commit"
 git branch -M main
 
+git branch dev
+git rebase dev
+
 git remote add origin <github_url>
 git push -u origin main
 ```
